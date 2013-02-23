@@ -1,12 +1,17 @@
-var Card = function(config) {
-  this.x = config.x;
-  this.y = config.y;
+var Card = function (config) {
+    this.position = config.position
+    this.html = "<p class='sticky taped2' style='width: 150px;'>" +
+        "<strong>The Little Turtle</strong>.<br />" +
+        "There was a little turtle.<br />" +
+        "</p>";
 
-    this.updatePosition = function(position){
-      this.y = position.top;
-      this.x = position.left;
-      return this;
-  }
+    this.updatePosition = function (position) {
+        this.position = position
+        this.x = position.left;
+        $(".sticky").offset(position);
+        console.log("moving to: " + JSON.stringify(position));
+        return this;
+    }
 };
 
 var TaskBoard = function (socket) {
@@ -21,4 +26,4 @@ TaskBoard.prototype.cardMoved = function (card) {
 };
 
 
-var card = new Card({x: 0, y: 0});
+var card = new Card({position: {top: 0, left: 0}});

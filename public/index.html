@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Sticky footer &middot; Twitter Bootstrap</title>
+    <title>taskboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <link href="stylesheets/bootstrap.css" rel="stylesheet">
     <link href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" rel="stylesheet">
+    <link href="stylesheets/index.css" rel="stylesheet">
 
     <script src="javascripts/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
@@ -24,9 +25,23 @@
 <!-- Part 1: Wrap all page content here -->
 <div id="wrap">
     <!-- Begin page content -->
-    <div class="container">
-        <span class="label">Default</span>
+    <div class="container-fluid border">
+        <div class="row-fluid" id="board-row">
+            <div class="span3" id="stories-column">
+              <h2>Stories</h2>
+            </div>
+            <div class="span3" id="not-started-column">
+                <h2>Not Started</h2>
+            </div>
+            <div class="span3" id="in-progress-column">
+                <h2>In Progress</h2>
+            </div>
+            <div class="span3" id="done-column">
+                <h2>Done</h2>
+            </div>
+        </div>
     </div>
 </div>
+
 </body>
 </html>
