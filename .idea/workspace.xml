@@ -5,7 +5,7 @@
     <ignored path="node_task_board.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361558262031" ignored="false" />
-    <file path="/task_board.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361742153435" ignored="false" />
+    <file path="/task_board.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361748537874" ignored="false" />
     <file path="/index.html" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361735896258" ignored="false" />
     <file path="/task_board_ui.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361743019558" ignored="false" />
     <file path="/task_board_server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361738593376" ignored="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="43" selection-start="1582" selection-end="1591" vertical-scroll-proportion="-27.5">
+            <state line="44" column="43" selection-start="1582" selection-end="1591" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,22 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_board_ui.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="task_board_ui.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="37" selection-start="902" selection-end="902" vertical-scroll-proportion="0.41713014">
+            <state line="25" column="37" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_board.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="task_board.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="20" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1361742312566" expanded="true" signature="137:150" placeholder="..." />
-              </folding>
+            <state line="2" column="102" selection-start="169" selection-end="169" vertical-scroll-proportion="0.041322313">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,16 +138,15 @@
         <option value="$PROJECT_DIR$/public/stylesheets/index.css" />
         <option value="$PROJECT_DIR$/lib/task_board_server.js" />
         <option value="$PROJECT_DIR$/sprints/sprints.json" />
-        <option value="$PROJECT_DIR$/public/javascripts/task_board.js" />
         <option value="$PROJECT_DIR$/public/javascripts/task_board_ui.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/task_board.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="27" />
-    <option name="width" value="1922" />
-    <option name="height" value="1054" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,7 +255,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,14 +372,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -463,9 +460,7 @@
     <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="34" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1361742312566" expanded="true" signature="137:150" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +529,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="43" selection-start="1582" selection-end="1591" vertical-scroll-proportion="-27.5">
+        <state line="44" column="43" selection-start="1582" selection-end="1591" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -553,18 +548,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="20" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1361742312566" expanded="true" signature="137:150" placeholder="..." />
-          </folding>
+        <state line="25" column="37" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="902" selection-end="902" vertical-scroll-proportion="0.41713014">
+        <state line="2" column="102" selection-start="169" selection-end="169" vertical-scroll-proportion="0.041322313">
           <folding />
         </state>
       </provider>

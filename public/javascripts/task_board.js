@@ -1,6 +1,6 @@
 var Card = function (config) {
     this.position = config.position
-    this.html = "<p id='" + config.id + "'class='sticky taped' style='width: 150px;'>" +
+    this.html = "<p id='" + config.id + "'class='sticky taped' style='width: 150px; position: absolute;'>" +
         "<strong>" + config.name + "</strong>.<br />" +
         config.description + "<br />" +
         "</p>";
@@ -17,7 +17,8 @@ var Card = function (config) {
         if (position == undefined){
             position = this.position;
         }
-        this.position = position
+        this.position = position;
+        console.log("The position is " + JSON.stringify(this.position));
         $("#"+this.id).offset(this.position);
         return this;
     };
