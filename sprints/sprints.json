@@ -10,8 +10,8 @@
                 "time_booked": 8,
                 "time_worked": 5,
                 "position": {
-                    "top": 0,
-                    "left": 0
+                    "top": 60,
+                    "left": 10
                 }
             },
 
@@ -22,7 +22,7 @@
                 "time_booked": 8,
                 "time_worked": 5,
                 "position": {
-                    "top": 10,
+                    "top": 90,
                     "left": 40
                 }
             }
