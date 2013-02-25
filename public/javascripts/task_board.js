@@ -37,7 +37,7 @@ var Card = function (config) {
     };
 
     this.formHtml = function () {
-        return "<div id='divForm" + this.id + "'>New Task: <input id='textForm" + this.id + "' type='text' name='title'/></div>";
+        return "<div id='divForm" + this.id + "' class='new-card-form'>New Task: <input id='textForm" + this.id + "' type='text' name='title'/></div>";
     };
 
     this.renderFormIn = function (element) {
