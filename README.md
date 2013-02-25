@@ -4,6 +4,8 @@ Super simple Node.js task board for sprint planning
 
 You can access it on heroku here: http://node-task-board.herokuapp.com/
 
+One of the cool things (maybe the only cool thing :)) of the app is that it uses node.js support for websockets. In functionality this means that changes in one client browser are reflected in real time in other client browsers
+
 Using it
 ------
 After running it, to access a particular Sprint for a particular company, in the top right corner text box you simply introduce company/sprint  where company si the company name and sprint si the sprint name. For example cacique/sprint1
