@@ -4,7 +4,7 @@
  "description": "Minimalist task board",
  "engines": {
      "node": "0.8.19",
-     "npm": "1.2.11"
+     "npm": "1.2.10"
  },
  "dependencies": {
    "socket.io": "~0.9.6",
