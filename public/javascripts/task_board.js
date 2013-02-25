@@ -57,6 +57,7 @@ var Card = function (config) {
                 me.renderIn(element);
                 me.makeDraggable();
                 taskBoard.cardMoved(me);
+                cards[me.id] = me;
             }
         });
     }

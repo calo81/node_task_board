@@ -5,7 +5,12 @@ var mySprint = undefined;
 $(document).ready(function () {
     socket.on('card', function (result) {
         if (result.position !== undefined) {
-            cards[result.id].updatePosition(relativizePosition(result.position));
+            if(cards[result.id] == undefined){
+              cards[result.id] = new Card(result);
+              cards[result.id].renderIn($("#not-started-column"));
+              cards[result.id].makeDraggable();
+            }
+              cards[result.id].updatePosition(relativizePosition(result.position));
         } else {
             console.log("Error result doesn' have position coordinates" + JSON.stringify(result));
         }

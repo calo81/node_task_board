@@ -5,9 +5,9 @@
     <ignored path="node_task_board.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361799084947" ignored="false" />
-    <file path="/task_board.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361792372478" ignored="false" />
+    <file path="/task_board.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361800807540" ignored="false" />
     <file path="/index.html" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361795331002" ignored="false" />
-    <file path="/task_board_ui.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361794105760" ignored="false" />
+    <file path="/task_board_ui.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361800592406" ignored="false" />
     <file path="/task_board_server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361793886498" ignored="false" />
     <file path="/index.css" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361656864166" ignored="false" />
     <file path="/cacique-sprint-1.txt" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361715501884" ignored="false" />
@@ -40,19 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="143" selection-end="143" vertical-scroll-proportion="0.12820514">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="task_board_server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="2" selection-start="1518" selection-end="1520" vertical-scroll-proportion="-9.32">
+            <state line="58" column="2" selection-start="1518" selection-end="1520" vertical-scroll-proportion="-2.84">
               <folding />
             </state>
           </provider>
@@ -115,7 +106,16 @@
       <file leaf-file-name="task_board_ui.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="38" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+            <state line="10" column="14" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_board.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="34" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.54545456">
               <folding />
             </state>
           </provider>
@@ -135,15 +135,15 @@
         <option value="$PROJECT_DIR$/public/sprints/cacique-sprint-1.txt" />
         <option value="$PROJECT_DIR$/public/sprints/cacique-sprint-1.json" />
         <option value="$PROJECT_DIR$/sprints/cacique-sprint-1.json" />
-        <option value="$PROJECT_DIR$/public/javascripts/task_board.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/index.css" />
         <option value="$PROJECT_DIR$/sprints/sprints.json" />
-        <option value="$PROJECT_DIR$/public/javascripts/task_board_ui.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/lib/task_board_server.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/javascripts/task_board_ui.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/task_board.js" />
       </list>
     </option>
   </component>
@@ -515,20 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="52" selection-start="842" selection-end="848" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="38" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="109" selection-start="2411" selection-end="2411" vertical-scroll-proportion="-40.0">
@@ -543,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="2" selection-start="1518" selection-end="1520" vertical-scroll-proportion="-9.32">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
@@ -559,7 +538,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="143" selection-end="143" vertical-scroll-proportion="0.12820514">
+        <state line="6" column="19" selection-start="143" selection-end="143" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="2" selection-start="1518" selection-end="1520" vertical-scroll-proportion="-2.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="34" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
