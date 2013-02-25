@@ -50,7 +50,7 @@ var server = http.createServer(function (request, response) {
     serveStatic(response, cache, absPath);
 });
 
-server.listen(3001, function () {
+server.listen(8720, function () {
     console.log("Server listening on port 3001.");
 });
 

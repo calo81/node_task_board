@@ -30,19 +30,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="27" selection-end="74" vertical-scroll-proportion="0.0">
+            <state line="52" column="18" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.77272725">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_board_server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="task_board_server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="1" selection-start="898" selection-end="898" vertical-scroll-proportion="0.6818182">
+            <state line="35" column="1" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/javascripts/jquery-1.9.1.js" />
         <option value="$PROJECT_DIR$/public/sprints/cacique-sprint-1.txt" />
         <option value="$PROJECT_DIR$/public/sprints/cacique-sprint-1.json" />
@@ -133,6 +132,7 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/lib/task_board_server.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -371,13 +371,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="27" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
@@ -548,7 +541,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="898" selection-end="898" vertical-scroll-proportion="0.6818182">
+        <state line="35" column="1" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="18" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.77272725">
           <folding />
         </state>
       </provider>
