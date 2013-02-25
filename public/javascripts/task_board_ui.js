@@ -21,13 +21,13 @@ $(document).ready(function () {
     socket.on("sprintJoined", function (sprint) {
         $(".sticky").remove();
         mySprint = sprint.company + " / " + sprint.name;
+        writeSprintLabel();
         sprint.tasks.forEach(function (task) {
             var card = new Card(task);
             card.renderIn($("#not-started-column"));
             card.updatePosition(relativizePosition(task.position));
             card.makeDraggable();
             cards[task.id] = card;
-            writeSprintLabel();
         });
 
     });
