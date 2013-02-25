@@ -13,6 +13,7 @@
     <file path="/cacique-sprint-1.txt" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361715501884" ignored="false" />
     <file path="/cacique-sprint-1.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361726101840" ignored="false" />
     <file path="/sprints.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361737685250" ignored="false" />
+    <file path="/Procfile" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361797075999" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="27" selection-end="74" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="27" selection-end="74" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,10 +57,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="109" selection-start="2411" selection-end="2411" vertical-scroll-proportion="1.3933237">
+            <state line="64" column="109" selection-start="2411" selection-end="2411" vertical-scroll-proportion="-40.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,15 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_board.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="52" selection-start="842" selection-end="848" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -140,6 +141,7 @@
         <option value="$PROJECT_DIR$/sprints/sprints.json" />
         <option value="$PROJECT_DIR$/public/javascripts/task_board_ui.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -469,13 +471,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="34" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
@@ -534,7 +529,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="74" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="27" selection-end="74" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -576,7 +571,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="109" selection-start="2411" selection-end="2411" vertical-scroll-proportion="1.3933237">
+        <state line="64" column="109" selection-start="2411" selection-end="2411" vertical-scroll-proportion="-40.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
