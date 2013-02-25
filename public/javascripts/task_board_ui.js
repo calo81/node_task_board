@@ -36,8 +36,16 @@ $(document).ready(function () {
         }
     });
 
+    handleNewCardCreation();
+
+});
+
+var browserWidth = 0;
+var browserHeight = 0;
+
+function handleNewCardCreation() {
     var timeout, longtouch;
-    $(this).bind('touchstart',function () {
+    $("#not-started-column").bind('touchstart',function () {
         timeout = setTimeout(function () {
             longtouch = true;
         }, 1000);
@@ -51,10 +59,7 @@ $(document).ready(function () {
 
 
     $("#not-started-column").bind("dblclick", createNewCard);
-});
-
-var browserWidth = 0;
-var browserHeight = 0;
+}
 
 
 function createNewCard() {
