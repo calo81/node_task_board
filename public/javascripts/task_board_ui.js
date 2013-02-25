@@ -36,7 +36,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#not-started-column").dblclick(function(){
+    $("#not-started-column").bind("touchstart dblclick", function(){
        var randomId=Math.floor(Math.random()*1000000000);
        var card = new Card({
            id: randomId,

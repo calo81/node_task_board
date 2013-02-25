@@ -7,7 +7,7 @@
     <file path="/server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361799084947" ignored="false" />
     <file path="/task_board.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361800807540" ignored="false" />
     <file path="/index.html" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361802651457" ignored="false" />
-    <file path="/task_board_ui.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361800592406" ignored="false" />
+    <file path="/task_board_ui.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361803964679" ignored="false" />
     <file path="/task_board_server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361793886498" ignored="false" />
     <file path="/index.css" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361656864166" ignored="false" />
     <file path="/cacique-sprint-1.txt" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361715501884" ignored="false" />
@@ -60,10 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="53" selection-start="645" selection-end="645" vertical-scroll-proportion="0.32656023">
+            <state line="15" column="53" selection-start="645" selection-end="645" vertical-scroll-proportion="-9.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_board.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="34" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,19 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socket.io.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/socket.io.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_board_ui.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="task_board_ui.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+            <state line="37" column="47" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.54545456">
               <folding />
             </state>
           </provider>
@@ -143,10 +143,10 @@
         <option value="$PROJECT_DIR$/lib/task_board_server.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/public/javascripts/task_board_ui.js" />
         <option value="$PROJECT_DIR$/public/javascripts/task_board.js" />
         <option value="$PROJECT_DIR$/public/javascripts/jquery.ui.touch-punch.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/task_board_ui.js" />
       </list>
     </option>
   </component>
@@ -539,20 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="34" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="2" selection-start="1518" selection-end="1520" vertical-scroll-proportion="-31.8">
@@ -571,7 +557,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="53" selection-start="645" selection-end="645" vertical-scroll-proportion="0.32656023">
+        <state line="15" column="53" selection-start="645" selection-end="645" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="34" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/task_board_ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="47" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
