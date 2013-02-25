@@ -49,9 +49,9 @@ var server = http.createServer(function (request, response) {
     var absPath = './' + filePath;
     serveStatic(response, cache, absPath);
 });
-
-server.listen(8720, function () {
-    console.log("Server listening on port 3001.");
+var port = process.env.PORT || 3001
+server.listen(port, function () {
+    console.log("Server listening on port." + port);
 });
 
 var taskBoardServer = require('./lib/task_board_server');
