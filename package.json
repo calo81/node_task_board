@@ -2,6 +2,10 @@
  "name": "task_board",
  "version": "0.0.1",
  "description": "Minimalist task board",
+ "engines": {
+     "node": "0.8.20",
+     "npm": "1.2.11"
+ },
  "dependencies": {
    "socket.io": "~0.9.6",
    "mime": "~1.2.7"

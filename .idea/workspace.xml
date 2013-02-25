@@ -14,6 +14,7 @@
     <file path="/cacique-sprint-1.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361726101840" ignored="false" />
     <file path="/sprints.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361737685250" ignored="false" />
     <file path="/Procfile" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361797075999" ignored="false" />
+    <file path="/package.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361799463379" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +31,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="18" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.77272725">
+            <state line="1" column="18" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="19" selection-start="143" selection-end="143" vertical-scroll-proportion="0.12820514">
               <folding />
             </state>
           </provider>
@@ -42,7 +52,7 @@
       <file leaf-file-name="task_board_server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="1" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+            <state line="58" column="2" selection-start="1518" selection-end="1520" vertical-scroll-proportion="-9.32">
               <folding />
             </state>
           </provider>
@@ -133,6 +143,7 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/lib/task_board_server.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -469,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/socket.io.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -541,14 +545,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+        <state line="58" column="2" selection-start="1518" selection-end="1520" vertical-scroll-proportion="-9.32">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="18" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.77272725">
+        <state line="1" column="18" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="143" selection-end="143" vertical-scroll-proportion="0.12820514">
           <folding />
         </state>
       </provider>
