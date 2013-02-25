@@ -2,7 +2,9 @@ Node Task Board
 ======================
 Super simple Node.js task board for sprint planning
 
-You can access it on heroku here: 
+You can access it on heroku here: http://node-task-board.herokuapp.com/
+
+One of the cool things (maybe the only cool thing :)) of the app is that it uses node.js support for websockets. In functionality this means that changes in one client browser are reflected in real time in other client browsers
 
 Using it
 ------
