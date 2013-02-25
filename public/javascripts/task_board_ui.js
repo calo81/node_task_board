@@ -1,6 +1,8 @@
 var socket = io.connect();
 var taskBoard = new TaskBoard(socket);
 var mySprint = undefined;
+var browserWidth = 0;
+var browserHeight = 0;
 
 $(document).ready(function () {
     socket.on('card', function (result) {
@@ -12,7 +14,7 @@ $(document).ready(function () {
             }
             cards[result.id].updatePosition(relativizePosition(result.position));
         } else {
-            console.log("Error result doesn' have position coordinates" + JSON.stringify(result));
+            alert("Error result doesn' have position coordinates" + JSON.stringify(result));
         }
     });
 
@@ -25,6 +27,7 @@ $(document).ready(function () {
             card.updatePosition(relativizePosition(task.position));
             card.makeDraggable();
             cards[task.id] = card;
+            writeSprintLabel();
         });
 
     });
@@ -40,8 +43,9 @@ $(document).ready(function () {
 
 });
 
-var browserWidth = 0;
-var browserHeight = 0;
+function writeSprintLabel(){
+    $(".nav-collapse .nav .active a").text(mySprint)
+}
 
 function handleNewCardCreation() {
     var timeout, longtouch;
