@@ -2,7 +2,7 @@ Node Task Board
 ======================
 Super simple Node.js task board for sprint planning
 
-You can access it on heroku here: 
+You can access it on heroku here: http://node-task-board.herokuapp.com/
 
 Using it
 ------
