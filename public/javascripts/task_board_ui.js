@@ -11,6 +11,7 @@ $(document).ready(function () {
                 cards[result.id] = new Card(result);
                 cards[result.id].renderIn($("#not-started-column"));
                 cards[result.id].makeDraggable();
+                cards[result.id].makeDeletable();
             }
             cards[result.id].updatePosition(relativizePosition(result.position));
         } else {
@@ -27,9 +28,14 @@ $(document).ready(function () {
             card.renderIn($("#not-started-column"));
             card.updatePosition(relativizePosition(task.position));
             card.makeDraggable();
+            card.makeDeletable();
             cards[task.id] = card;
         });
 
+    });
+
+    socket.on("cardDeleted", function(id){
+        cards[id].remove();
     });
 
 

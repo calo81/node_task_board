@@ -26,7 +26,20 @@ var Card = function (config) {
                 taskBoard.cardMoved(me.updatePosition(ui.position));
             }
         });
-    }
+    };
+
+    this.makeDeletable = function(){
+        $("#" + this.id).dblclick(function(event){
+            event.stopPropagation();
+            me.remove();
+            taskBoard.cardDeleted(me);
+        });
+    };
+
+    this.remove = function(){
+        $("#" + this.id).remove();
+        cards[this.id] = undefined;
+    };
 
     this.html = function () {
         return "<p id='" + this.id + "'class='sticky taped' style='width: 150px; position: absolute;'>" +
@@ -70,6 +83,10 @@ TaskBoard.prototype.cardMoved = function (card) {
     var clonedCard = JSON.parse(JSON.stringify(card));
     clonedCard.position = absolutePosition(card.position);
     this.socket.emit('card', clonedCard);
+};
+
+TaskBoard.prototype.cardDeleted = function (card) {
+    this.socket.emit('deleteCard', card.id);
 };
 
 var cards = {};
