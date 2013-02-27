@@ -8,7 +8,7 @@
     <file path="/task_board.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361908382478" ignored="false" />
     <file path="/index.html" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361802651457" ignored="false" />
     <file path="/task_board_ui.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361908252880" ignored="false" />
-    <file path="/task_board_server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361921840461" ignored="false" />
+    <file path="/task_board_server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361922998990" ignored="false" />
     <file path="/index.css" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361656864166" ignored="false" />
     <file path="/cacique-sprint-1.txt" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361715501884" ignored="false" />
     <file path="/cacique-sprint-1.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361726101840" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="task_board_server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="13" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.8333333">
+            <state line="87" column="11" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.7805907">
               <folding />
             </state>
           </provider>
@@ -495,10 +495,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2446198" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2446198" sideWeight="0.6705277" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -677,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.8333333">
+        <state line="87" column="11" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.7805907">
           <folding />
         </state>
       </provider>
