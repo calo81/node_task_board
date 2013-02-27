@@ -8,7 +8,7 @@
     <file path="/task_board.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361908382478" ignored="false" />
     <file path="/index.html" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361802651457" ignored="false" />
     <file path="/task_board_ui.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361908252880" ignored="false" />
-    <file path="/task_board_server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361977983630" ignored="false" />
+    <file path="/task_board_server.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1362007381238" ignored="false" />
     <file path="/index.css" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361656864166" ignored="false" />
     <file path="/cacique-sprint-1.txt" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361715501884" ignored="false" />
     <file path="/cacique-sprint-1.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361726101840" ignored="false" />
@@ -16,7 +16,7 @@
     <file path="/Procfile" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361797075999" ignored="false" />
     <file path="/package.json" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361915801057" ignored="false" />
     <file path="/a.dummy" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361830462479" ignored="false" />
-    <file path="/mongo_manager.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1361977970040" ignored="false" />
+    <file path="/mongo_manager.js" changelist="abf5e0d1-589c-459c-92f6-347296429d33" time="1362007906946" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_board_server.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="task_board_server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="44" selection-start="2453" selection-end="2453" vertical-scroll-proportion="1.4122682">
+            <state line="29" column="29" selection-start="838" selection-end="838" vertical-scroll-proportion="-17.4">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mongo_manager.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mongo_manager.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/mongo_manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="242" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="81" column="106" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.38990182">
               <folding />
             </state>
           </provider>
@@ -146,8 +146,8 @@
         <option value="$PROJECT_DIR$/public/javascripts/task_board_ui.js" />
         <option value="$PROJECT_DIR$/public/javascripts/task_board.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/mongo_manager.js" />
         <option value="$PROJECT_DIR$/lib/task_board_server.js" />
+        <option value="$PROJECT_DIR$/lib/mongo_manager.js" />
       </list>
     </option>
   </component>
@@ -563,16 +563,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mongo_manager.js">
+    <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="242" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="29" column="29" selection-start="838" selection-end="838" vertical-scroll-proportion="-17.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/task_board_server.js">
+    <entry file="file://$PROJECT_DIR$/lib/mongo_manager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="44" selection-start="2453" selection-end="2453" vertical-scroll-proportion="1.4122682">
+        <state line="81" column="106" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.38990182">
           <folding />
         </state>
       </provider>
